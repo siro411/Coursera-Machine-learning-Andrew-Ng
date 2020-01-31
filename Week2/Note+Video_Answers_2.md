@@ -7,13 +7,13 @@ n=the number of features
 hθ(x)=θ0+θ1x1+θ2x2+...θnxn
 
 Q: <br>
-Size (feet)^2| Number of bedrooms | Number of floors | Age of home (years) | Price ($1000)
+Size (feet^2) | Number of bedrooms | Number of floors |Age of home (years) | Price (1000 dollar)
 ------ | ------ | ------| ------| ------
 2104 | 5 | 1 | 45 | 460
 1416 | 3 | 2 | 45 | 232
 1534 | 3 | 2 | 30 | 315
-852 | 2 | 1 | 36 | 178
-...| ...| ...| ...|...
+852  | 2 | 1 | 36 | 178
+...  |...| ...| ...|...
 
 In the training set above, what is ![](https://latex.codecogs.com/png.latex?\inline&space;\bg_white&space;x_1^{(4)})?
 
