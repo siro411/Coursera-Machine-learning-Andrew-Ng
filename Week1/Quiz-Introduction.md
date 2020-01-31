@@ -39,10 +39,10 @@ Some of the problems below are best addressed using a supervised learning algori
 >Q5:<br>
 Which of these is a reasonable definition of machine learning?
 
-- [x]Machine learning is the field of study that gives computers the ability to learn without being explicitly programmed.
-- [ ]Machine learning is the science of programming computers.
-- [ ]Machine learning means from labeled data.
-- [ ]Machine learning is the field of allowing robots to act intelligently.
+- [x] Machine learning is the field of study that gives computers the ability to learn without being explicitly programmed.
+- [ ] Machine learning is the science of programming computers.
+- [ ] Machine learning means from labeled data.
+- [ ] Machine learning is the field of allowing robots to act intelligently.
 
 
 

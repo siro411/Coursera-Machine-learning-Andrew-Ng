@@ -1,3 +1,4 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 # Introduction
 ## What is Machine Learning?
 Two definitions of Machine Learning are offered. 
@@ -56,7 +57,39 @@ Q:<br>
 Of the following examples, which would you address using an unsupervised learning algorithm? (Check all that apply.)
 
 A:
-> - [ ]Given email labeled as spam/not spam, learn a spam filter.
-> - [x]Given a set of news articles found on the web, group them into sets of articles about the same stories.
-> - [x]Given a database of customer data, automatically discover market segments and group customers into different market segments.
-> - [ ]Given a dataset of patients diagnosed as either having diabetes or not, learn to classify new patients as having diabetes or not.
+> - [ ] Given email labeled as spam/not spam, learn a spam filter.
+> - [x] Given a set of news articles found on the web, group them into sets of articles about the same stories.
+> - [x] Given a database of customer data, automatically discover market segments and group customers into different market segments.
+> - [ ] Given a dataset of patients diagnosed as either having diabetes or not, learn to classify new patients as having diabetes or not.
+
+------
+# Linear Regression with One Variable
+## Model Representation
+
+To describe the supervised learning problem slightly more formally, our goal is, given a training set, to learn a function h : X → Y so that h(x) is a “good” predictor for the corresponding value of y. For historical reasons, this function h is called a hypothesis. Seen pictorially, the process is therefore like this:
+
+![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/H6qTdZmYEeaagxL7xdFKxA_2f0f671110e8f7446bb2b5b2f75a8874_Screenshot-2016-10-23-20.14.58.png?expiry=1580601600000&hmac=xgyCO3Kgw8eA_c9D0qSuZ5ZeHAT0TYPOQjAN6IfVi48)
+
+Q:<br>
+Consider the training set shown below. (x<sup>(i)</sup>, y<sup>(i)</sup>) is the i<sup>th</sup> training example. What is y<sup>(3)</sup> ?
+Size in feet<sup>2</sup>(x)  | Price ($) in 1000's (y)
+------------- | -------------
+2104  | 460
+1416  | 232
+1534  | 315
+852  | 178
+...  | ...
+
+A:
+> - [ ] 1416 
+> - [ ] 1534 
+> - [x] 315 
+> - [ ] 0 
+
+------
+## Cost function
+
+Consider the plot below of h_\theta(x) = \theta_0 What are and ? 
+
+ 
+
