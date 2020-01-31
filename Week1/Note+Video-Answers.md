@@ -1,5 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
 # Introduction
 ## What is Machine Learning?
 Two definitions of Machine Learning are offered. 
@@ -93,7 +91,7 @@ A:
 ![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/R2YF5Lj3EeajLxLfjQiSjg_110c901f58043f995a35b31431935290_Screen-Shot-2016-12-02-at-5.23.31-PM.png?expiry=1580601600000&hmac=Eg4yLxBu6GA7Yt5ZOvN19RZOY3EFf6gWFnPg15WVjYQ)
 
 Q:<br>
-Consider the plot below of $$h_\theta(x)= \theta_0 +\theta_1x$$.What are  $$\theta_0$$ and $$\theta_1$$? 
+Consider the plot below of h_θ(x)= θ_0 +θ_1*x.What are  θ_0 and θ_1? 
 
 ![](https://spark-public.s3.amazonaws.com/ml/images/2.2-quiz-1-fig.jpg)
 
@@ -105,7 +103,7 @@ A:<br>
 
 ------
 ## Cost function Intuition I
-Suppose we have a training set with m=3 examples, plotted below. Our hypothesis representation is h_θ(x)=θ_1x$$.with parameter θ_1. The cost function J(θ_1) is $$J(\theta_1$$=
+Suppose we have a training set with m=3 examples, plotted below. Our hypothesis representation is h_θ(x)=θ_1x$$.with parameter θ_1. The cost function J(θ_1) is J(θ_1)=
 ![](https://latex.codecogs.com/png.latex?\inline&space;\bg_white&space;{\frac{1}{2m}}\sum_{i=1}^{m}\left&space;(&space;h_\theta(x^{(i)})-y^{(i)}&space;\right&space;)^2).What is J(0)?
 
 ![](https://spark-public.s3.amazonaws.com/ml/images/2.3-quiz-1-fig.jpg)
