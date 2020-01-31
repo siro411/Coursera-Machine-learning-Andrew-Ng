@@ -26,6 +26,7 @@ A:
 >Q4:<br>
 Let f be some function so that f(θ_0,θ_1) outputs a number. For this problem, f is some arbitrary/unknown smooth function (not necessarily the cost function of linear regression, so f may have local optima). Suppose we use gradient descent to try to minimize f(θ_0,θ_1) as a function of θ_0 and θ_1. Which of the following statements are true? (Check all that apply.)
 
+A:
 > - [ ] Setting the learning rate to be very small is not harmful, and can only speed up the convergence of gradient descent.
 > - [x] If θ0 and θ1 are initialized at a local minimum, then one iteration will not change their values.
 > - [ ] No matter how θ0 and θ1 are initialized, so long as learning rate is sufficiently small, we can safely expect gradient descent to converge to the same solution
@@ -38,6 +39,7 @@ Let f be some function so that f(θ_0,θ_1) outputs a number. For this problem, 
 Suppose that for some linear regression problem (say, predicting housing prices as in the lecture), we have some training set, and for our training set we managed to find some θ0, θ1 such that J(θ0,θ1)=0.
 
 Which of the statements below must then be true? (Check all that apply.)
+A:
 > - [ ] For this to be true, we must have y(i)=0 for every value of i=1,2,…,m.
 > - [ ] Gradient descent is likely to get stuck at a local minimum and fail to find the global minimum.
 > - [ ] For this to be true, we must have θ0=0 and θ1=0 so that hθ(x)=0
