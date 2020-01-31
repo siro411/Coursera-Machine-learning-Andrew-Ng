@@ -6,7 +6,8 @@ n=the number of features
 
 hθ(x)=θ0+θ1x1+θ2x2+...θnxn
 
-Q: <br>
+Q:
+
 Size (feet^2) | Number of bedrooms | Number of floors |Age of home (years) | Price (1000 dollar)
 ------ | ------ | ------| ------| ------
 2104 | 5 | 1 | 45 | 460
