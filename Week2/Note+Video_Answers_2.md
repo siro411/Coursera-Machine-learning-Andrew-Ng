@@ -6,8 +6,8 @@ n=the number of features
 
 hθ(x)=θ0+θ1x1+θ2x2+...θnxn
 
-Q: 
-Size (feet)^2| Number of bedrooms | Number of floors | Age of home (years) |Price ($1000)
+Q: <br>
+Size (feet)^2| Number of bedrooms | Number of floors | Age of home (years) | Price ($1000)
 ------ | ------ | ------| ------| ------
 2104 | 5 | 1 | 45 | 460
 1416 | 3 | 2 | 45 | 232
@@ -34,7 +34,7 @@ For linear regression, which of the following are also equivalent and correct de
 A:
 > - [x] J((theta))=(1/2m)*(sum over i=1 to m(((theta)Tranpose (x(i)) - y(i))^2))
 > - [x] J((theta))=(1/2m)(sum over i=1 to m(((sum over j=0 to n((theta(j)) *(x(i)(j))) - y(i))^2))
-> - [ ] J((theta))=(1/2m)(sum over i=0 to m(((sum over j=0 to n((theta(j)) *(x(i)(j))) - y(i))^2))
+> - [ ] J((theta))=(1/2m)(sum over i=1 to m(((sum over j=1 to n((theta(j)) *(x(i)(j))) - y(i))^2))
 
 ## Gradient Descent in Practice I - Feature Scaling
 We can speed up gradient descent by having each of our input values in roughly the same range. This is because θ will descend quickly on small ranges and slowly on large ranges, and so will oscillate inefficiently down to the optimum when the variables are very uneven.
