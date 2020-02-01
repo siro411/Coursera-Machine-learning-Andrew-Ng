@@ -1,4 +1,3 @@
-# Introduction
 > Q1:<br>
 Suppose m=4 students have taken some class, and the class had a midterm exam and a final exam. You have collected a dataset of their scores on the two exams, which is as follows:
 
@@ -34,7 +33,7 @@ A:
 Suppose you have m=14 training examples with n=3 features (excluding the additional all-ones feature for the intercept term, which you should add). The normal equation is θ = (X^TX)^{-1}X^Ty.For the given values of mm and nn, what are the dimensions of θ, X, and y in this equation?
 
 A:
--   X is 14*4,y is 14*1, θ is 4*1
+-   X is 14x4,y is 14x1, θ is 4x1
 
 
 > Q4:<br>
